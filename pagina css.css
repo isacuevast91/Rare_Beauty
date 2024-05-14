@@ -1,0 +1,135 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: times new roman, serif;
+    background-color: #f3f3f3;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #CABDC6;
+}
+
+.link {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #CABDC6;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h3 {
+    color: #7B4167;
+    text-align: center;
+    font-size: 30px;
+}
+
+.primer-contenedor {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.imagen-inicio {
+    width: 300px;
+    height: 300px;
+    border-radius: : 5px 5px 5px 5px;
+}
+
+.primer-texto {
+    width: 48%;
+}
+
+p {
+    padding: 0px 0px 3px 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: #9D6E8D;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #7B4167;
+}
+
+
+/*tabla de lugares*/
+
+.cont-tabla {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #dddddd;
+    height: auto;
+}
+
+cont-tabla .t1 {
+    width: 60%;
+    float: center;
+}
+
+.t1 {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 300px;
+}
+
+.t1 thead th {
+    background-color: #a9a27c;
+    color: #fff;
+    text-align: center;
+}
+
+.t1 th,
+.t1 td {
+    padding: 12px 15px;
+}
+
+.t1 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/*lista*/
+
+.contenedor-lista {
+    width: 40%;
+    background-color: #dddddd;
+}
+
+.lista {
+    width: 150px;
+    width: auto;
+}
+
+ul {
+    list-style-position: outside;
+    background-color: #dddddd;
+    list-style-type: square;
+    color: #967A6C;
+}
+
+li {
+    font-weight: 300;
+    text-align: justify;
+    color: #7B4167;
+    font-size: 20px;
+}
